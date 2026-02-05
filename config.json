@@ -1,0 +1,29 @@
+{
+    "blacklisted_ips": [
+        "192.168.1.100",
+        "10.0.0.5",
+        "203.0.113.0"
+    ],
+    "thresholds": {
+        "failed_logins": 5,
+        "time_window_minutes": 2,
+        "high_traffic_requests": 100,
+        "high_traffic_window_seconds": 10
+    },
+    "restricted_endpoints": [
+        "/admin",
+        "/config",
+        "/database",
+        "/backup"
+    ],
+    "allowed_countries": [
+        "US",
+        "CA",
+        "GB",
+        "DE",
+        "FR"
+    ],
+    "log_directory": "network_logs/",
+    "output_directory": "output/",
+    "reports_directory": "reports/"
+}

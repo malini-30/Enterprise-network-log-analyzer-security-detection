@@ -1,0 +1,36 @@
+============================================================
+DAILY SECURITY REPORT - 2026-02-05
+============================================================
+
+SUMMARY
+----------------------------------------
+Total logs processed: 52
+Unique IPs: 38
+Total alerts: 12
+Critical alerts: 9
+Failed login attempts: 12
+
+THREAT CATEGORIES TRIGGERED
+----------------------------------------
+- Unauthorized Access Attempt
+- Suspicious IP Access
+- Brute Force Indicator
+- Firewall Block Alert
+
+TOP SUSPICIOUS IPS
+----------------------------------------
+192.168.1.100: 6 activities
+10.0.0.5: 5 activities
+203.0.113.0: 3 activities
+192.168.1.105: 2 activities
+192.168.1.106: 2 activities
+
+BLOCKED ATTEMPTS
+----------------------------------------
+Total blocked attempts: 8
+
+ACTIVITY TIMELINE
+----------------------------------------
+09:00 | # (12 requests)
+10:00 | ### (31 requests)
+11:00 |  (9 requests)
